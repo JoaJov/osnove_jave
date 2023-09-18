@@ -68,7 +68,8 @@ public class Igracjedan extends Osobajedan{
 
 @Override
 public void stampaj(){
-    System.out.println(this.imeIprezime + "," + this.godRodjenja + "," + this.jmbg + ","+ this.pozicija + ","+ this.broj + ","+ this.kapiten + ","+ this.kartoni );
+    System.out.println( this.pozicija + ","+ this.broj + ","+ this.kapiten + ","+ this.kartoni );
+    super.stampaj();
 
 }
 }
